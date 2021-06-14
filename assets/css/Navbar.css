@@ -1,0 +1,52 @@
+
+/* .navbar {
+    display: grid;
+    place-items: center;
+} */
+
+.navbar-light {
+    margin-bottom: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
+}
+
+.navbar-light .navbar-brand {
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-item,
+.navbar-light .navbar-nav .active > .nav-item:hover,
+.navbar-light .navbar-nav .active > .nav-item:focus {
+    color: #FF8402;
+    background: transparent;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-light.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    border-bottom-color: transparent;
+}
+
+#BDEicon{
+	height: 60px;
+	width: 60px;
+}
+
+#presentation-menu, #associations-menu, #partenariats-menu, #events-menu, #contact-menu{
+    cursor: pointer;
+}
